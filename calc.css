@@ -27,6 +27,14 @@
     outline:none;
     font-size: larger;
 }
+.button:active{
+    transform:translateY(3px);
+    box-shadow: 0 2px #666;
+}
+.button:hover{
+    background-color: #363737;
+    color: #fff;
+}
 body{
     background-image: linear-gradient(to right,rgb(43, 221, 252),rgb(35, 84, 243));
 }
